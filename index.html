@@ -35,7 +35,8 @@
             min-height: 100vh;
             overflow: hidden;
 
-            padding: 76px 30px 80px;
+            /* Espace blanc en haut légèrement augmenté */
+            padding: 100px 30px 80px;
 
             background: white;
             color: var(--blue);
@@ -349,7 +350,6 @@
            ================================= */
 
         @keyframes orbFloat {
-
             0%,
             100% {
                 transform:
@@ -366,7 +366,6 @@
 
 
         @keyframes orbPulse {
-
             0%,
             100% {
                 opacity: 0.75;
@@ -381,7 +380,6 @@
 
 
         @keyframes corePulse {
-
             0%,
             100% {
                 transform: scale(1);
@@ -394,7 +392,6 @@
 
 
         @keyframes ringRotate {
-
             from {
                 transform:
                     rotate(-18deg)
@@ -412,7 +409,6 @@
 
 
         @keyframes ringRotateReverse {
-
             from {
                 transform:
                     rotate(32deg)
@@ -430,7 +426,6 @@
 
 
         @keyframes particleFloat1 {
-
             0%,
             100% {
                 transform: translate(0, 0);
@@ -445,7 +440,6 @@
 
 
         @keyframes particleFloat2 {
-
             0%,
             100% {
                 transform: translate(0, 0);
@@ -460,7 +454,6 @@
 
 
         @keyframes particleFloat3 {
-
             0%,
             100% {
                 transform: translate(0, 0);
@@ -616,8 +609,8 @@
         @media (max-width: 600px) {
 
             .home {
-                padding:
-                    55px 24px 70px;
+                /* Un peu plus d'espace en haut sur mobile */
+                padding: 65px 24px 70px;
             }
 
 
